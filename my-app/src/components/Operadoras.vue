@@ -22,7 +22,6 @@
                 <th>Endereço Eletrônico</th>
                 <th>Representante</th>
                 <th>Cargo Representante</th>
-                <th>Região de Comercialização</th>
                 <th>Data Registro ANS</th>
             </tr>
             </thead>
@@ -47,7 +46,6 @@
                   <td>{{ item[16].replaceAll('"', '') }}</td>
                   <td>{{ item[17].replaceAll('"', '') }}</td>
                   <td>{{ item[18].replaceAll('"', '') }}</td>
-                  <td>{{ item[19].replaceAll('"', '') }}</td>
               </tr>
             </tbody>
         </table>
